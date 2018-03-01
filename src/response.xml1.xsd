@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://adamish.com/example/farm" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="farm" type="farm:farmType" xmlns:farm="http://adamish.com/example/farm"/>
+  <xs:complexType name="farmType">
+    <xs:sequence>
+      <xs:element ref="horse"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

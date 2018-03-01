@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header />
+    <soapenv:Body>
+        <ns2:farm xmlns:ns2="http://adamish.com/example/farm">
+            <horse height="123" name="glue factory" />
+        </ns2:farm>
+    </soapenv:Body>
+</soapenv:Envelope>
